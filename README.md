@@ -81,6 +81,18 @@
 |---|---|
 | <img src="results/text-cv-block11-c2.png" width="260"> | <img src="results/text-cv.png" width="260"> |
 
+Разные `blockSize` при `C = 15`.
+
+| blockSize = 5 | blockSize = 25 | blockSize = 101 |
+|---|---|---|
+| <img src="results/text-cv-block5-c15.png" width="260"> | <img src="results/text-cv.png" width="260"> | <img src="results/text-cv-block101-c15.png" width="260"> |
+
+Разные `C` при `blockSize = 25`.
+
+| C = 0 | C = 15 | C = 40 |
+|---|---|---|
+| <img src="results/text-cv-block25-c0.png" width="260"> | <img src="results/text-cv.png" width="260"> | <img src="results/text-cv-block25-c40.png" width="260"> |
+
 ### Быстродействие
 
 Время в зависимости от размера изображения (`blockSize = 25`):
